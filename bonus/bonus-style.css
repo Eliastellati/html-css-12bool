@@ -1,0 +1,102 @@
+.container {
+    /* border: 1px solid black; */
+}
+
+[class*="col-"] {
+    min-height: 50px;
+}
+
+img {
+    width: 100%;
+}
+
+h2 {
+    margin-top: 25%;
+}
+
+.top .col-12{
+    height: 50px;
+    background-color: rgb(194, 194, 194);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom: 4px solid grey;
+}
+.body> .col-12{
+    height: 100vh;
+}
+.body {
+    background-color: rgb(207, 207, 207);
+    width: 50%;
+    border-radius: 20px;
+    border-bottom-right-radius: 120px;
+    font-family: 'Ubuntu', sans-serif;
+    color: #3A3E9F;
+}
+
+.screen {
+    height: 400px;
+    margin-top: 50px;
+    background-color: darkslategray;
+    border-bottom-right-radius: 50px;
+}
+
+ .display .col-8 {
+    background-color: white;
+    margin-top: 25px;
+    height: 350px;
+}
+
+.brand .col-5 {
+    margin-top: .5rem;
+}
+.controls {
+    margin-top: 4rem;
+}
+.controls .col-3 {
+    /* background-color: white; */
+}
+
+.up>div, .middle>div, .down>div {
+    background-color: black;
+    box-shadow: 3px 3px 7px grey;
+}
+
+.a>.col-6, .b>.col-6{
+    height: 75px;
+    border-radius: 50%;
+    background-color: purple;
+    box-shadow: 2px 2px 3px grey;
+}
+
+.pause {
+    height: 50px;
+    margin-top: 50px;
+}
+.pause > .col-1 {
+    border-radius: 80%;
+    transform: rotate(-45deg);
+}
+.button {
+     width: 100%;
+     height: 40%;
+     background-color: grey;
+     border-radius: 10px;
+     box-shadow: 3px 3px 2px black;
+}
+.volume {
+    height: 200px;
+    border-radius: 100px;
+}
+
+.bars {
+    transform: rotate(-45deg);
+    margin-top:2rem;
+}
+
+.bar {
+    display: inline-block;
+    height: 100px;
+    width: 3px;
+    background-color: black;
+    margin-right: 20px;
+}
